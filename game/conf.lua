@@ -12,6 +12,7 @@ function love.conf(t)
 	t.identity              = nil
 	t.appendidentity        = false
 	t.version               = "11.4"
+-- Enabling console will break Local Lua Debugger
 	t.console               = false
 	t.accelerometerjoystick = false
 	t.externalstorage       = false
